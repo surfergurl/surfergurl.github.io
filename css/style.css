@@ -1,0 +1,128 @@
+  #Social li a{
+					     background: url("../images/icon1.png") ;
+					 }
+					 
+h1 a{background: url("../images/logo.jpg");
+        display: inline-block;
+		height: 121px;
+		width: 409px;
+		text-indent: -9999px;
+		position: relative;
+	
+ }
+ 
+ -webkit-@Keyframes fadein{
+        frrom{
+		opacity: 0;
+	 }
+	 to{
+	      opacity: 1;
+		  }
+ 
+ }
+ nav ul li:hover ul{
+    -webkit-animation: fadein 0.5s;
+ }
+ 
+ 
+   img{
+   width: 25%;
+   }
+
+
+h1{
+				font-size: 22px;
+				color: blue;
+				background-color: yellow;
+				width: 100%;
+				position: relative;
+			}
+			div{
+				outline: 1px solid;
+				width: 1000px;
+				background-color: red;
+			}
+		
+			#Header{
+				background-color: green;
+			}
+			#Content{
+				width: 750px;
+				float: left;
+			}
+			#Sidebar{
+				min-height: 300px;
+				background-color: yellow;
+				width: 250px;
+				float: left;
+			}
+			#Footer{
+			   width: 1000px;
+			    min-height:150px;
+				background-color: purple;
+				clear: both;
+				}
+			.orange{
+				color: orange;
+		}
+				
+	     
+		 
+		 .clear{
+		    clear: both;
+			}
+			
+			nav ul li a{
+			background-color: black;
+			color: white;
+			text-decoration: none;
+			text-transform: uppercase;
+			height: 80px;
+			width: 100px;
+			display: inline-block;
+			text-align: center;
+			margin-right: 11px;
+			margin: 10px;
+			padding-top: 20px;
+			border-radius: 100px;
+			}
+			nav ul li a:hover{
+			       background-color: white;
+				   color: black;
+				  	}
+					nav ul li{
+					list-style: none;
+					float: left;
+					position: relative;
+			   }
+			   nav ul li ul{
+			       background-color: gray;
+				   width: 100px;
+				   position: absolute;
+				   top: 80px;
+				   left: -9999px;
+				   border-radius: 30px;
+				  }
+					
+			   nav ul li:hover ul{
+			   left:0;
+			   }
+			   nav ul li ul li{
+			         float: none;
+			   }
+			   @media screen and (max-width: 100px){
+			    div{
+				      width: 100%;
+					  }
+			   }
+			       
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			   
+			  

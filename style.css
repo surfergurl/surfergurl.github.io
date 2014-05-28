@@ -1,0 +1,102 @@
+        #Social li{
+		list-style: none;
+		float: left;
+		}
+	    #Social li a{
+					     background: url("images/icons1.png") ;
+						 display: inline-block;
+						 height: 56px;
+						 width: 60px;
+						 text-indent: -9999px;
+						 
+					     }
+        #Twitter{
+		background-position:0 -60px !important;
+		}
+h1 a{background: url("../images/logo.jpg");
+      display: inline-block;
+	  height: 310px;
+	  width: 110px;
+	  text-indent: -9999px;
+	  }
+	img{
+	width: 15%;
+	}
+h1{
+      font-size: 24%;
+	  color: blue;
+	  width: 100%;
+	  position: relative;
+	  }
+	     div{
+		     outline: 1px solid;
+			 width: 2000px;
+			 background-color: gray;
+			 }
+	   #Header{
+	     background-color: silver;
+		 }
+		 #Content{
+		   width: 840px;
+		   float: left;
+		 }
+		 #Sidebar{
+		  min-height: 427px;
+		  background-color: blue;
+		  clear: both;
+		  }
+		  .orange{
+		  color: purple;
+		  }
+		  .clear{
+		    clear: both;
+	 nav ul li a{
+	  background-color: black;
+	  color: white;
+	  text-decoration: none;
+	  text-transformation: Uppercase;
+	  height: 92px;
+	  width: 78px;
+	  display: inline-block;
+	  text-align: center;
+	  margin-right: 13px;
+	  margin: 13px;
+	  padding-top: 20px;
+	  border-radius: 100px;
+	  }
+	  na ul li a:hover ul{
+	  background-color: black;
+	  color: red;
+	  }
+	   nav ul li{
+	   list-style: none;
+	   float: left;
+	   position: relative;
+	   }
+	   nav ul li ul{
+	   background-color: blue;
+	   width: 100px;
+	   position: absolute;
+	   top: 90px;
+	    left: -9999;
+		boder-radius: 50px;
+	   }
+	   nav ul li:hover ul{
+	   left:0;
+	   }
+	   nav ul li ul li{
+	       float: none;
+		   }
+		    #container1{
+			background-color: black;
+			width: 300px;
+			}
+			#container2{
+			background-color: blue;
+			width: 400px;
+			float: right;
+			}
+			#video{
+			width: auto;
+			}
+			
